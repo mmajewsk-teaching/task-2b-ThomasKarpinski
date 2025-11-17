@@ -28,3 +28,41 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+class Diary:
+    def __init__(self, students):
+        self.students = students
+        number_of_students_school = 0
+        
+        
+
+class ClassOfStudents():
+    def __init__(self, class_name):
+        self.class_name = class_name
+        
+
+class Student:
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname = surname
+    
+    def average_grade_subject(self):
+        pass
+
+class Subject:
+    def __init__(self, name_of_sub, coordinator):
+        self.name_of_sub = name_of_sub
+        self.coordinator = coordinator
+
+class Mark:
+    def __init__(self, value, subject, student_name, student_surname):
+        self.value = value
+        self.subject = subject
+        self.stydent_name = student_name
+        self.student_surname = student_surname
+
+
+mark1 = Mark(5.0, "Python", "Thomas", "Karpinski")
+print(mark1.value)
+
+student1 = Student("Thomas", "Karpinski")
